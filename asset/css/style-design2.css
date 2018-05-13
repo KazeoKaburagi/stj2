@@ -1,0 +1,360 @@
+body{
+    font-family: sans-serif;
+}
+/*header*/
+
+.navbar{
+	background-color: #ed1b23;
+	height: 124px;
+}
+.header img{
+	padding-left: 0px;
+}
+
+.call{
+	padding-right: 0px;
+}
+
+.fa-phone{
+	font-size: 40px;
+	color: white;
+	padding-right: 170px;
+	margin-top: 0px;
+	padding-bottom: -100px;
+	padding-top: 20px;
+	margin-right: -10px;
+}
+
+.call p{
+	color: white;
+	font-size: 10px;
+	margin-top: -45px;
+	font-weight: bold;
+}
+.call h3{
+	margin-top: 15px;
+	color: white;
+	margin-top: -10px;
+}
+.navbar-right a{
+	color: white;
+	padding: 10px;
+	padding-left: -15px;
+	margin-right: 0px;
+	font-size: 18px;
+}
+.navbar-right a:hover{
+    color: white;
+}
+/*slider*/
+.slider{
+    height: 406px;
+    background-repeat: no-repeat;
+    margin-bottom: -36px;
+}
+.slider .2man{
+    
+}
+.slider h2.title{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #141d42;
+    font-weight: bold;
+}
+.slider p.subtitle{
+    font-size: 16px;
+    color: #545454;
+}
+.slider a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.slider p.read{
+    padding-top: 33px;
+}
+.slider .carousel-caption{
+    position: absolute;
+    z-index: 2;
+    top: -15px;
+    left: 33px;
+    text-align: left;
+}
+.slider h2.title2{
+    font-size: 33px;
+    font-weight: bold;
+    color: white;
+    padding-top: 5px;
+    padding-left: 16px;
+}
+.slider p.subtitle2{
+    font-size: 14px;
+    color: white;
+    padding-bottom: 15px;
+    padding-left: 16px;
+}
+.slider .slider-left{
+    background-color: #ed1b23;
+    width: 274px;
+    height: 390px;
+}
+.slider .carousel-inner{
+    position: relative;
+    z-index: 1;
+}
+.slider .carousel-indicators{
+    position: absolute;
+    bottom: 0;
+    left: 65px;
+    bottom: 5px;
+} 
+.slider .btn.btn-default{
+    margin-bottom: 8px;
+    width: 209px;
+    margin-left: 16px;
+}
+/*akhir slider*/
+
+/*information*/
+.information .contact{
+	background-color: #141d42;
+	margin-top: 60px;
+	height: 142px;
+	width: 274px;
+}
+.information .plan{
+	font-size: 12px;
+	color: #ffffff;
+	padding-top: 15px;
+}
+.information .hr-red{
+	margin-top: 9px;
+	border-color: #ed1b23;
+	border-width: 5px;
+	width: 274px;
+}
+.information .contact img{
+	margin-top: -21px;
+}
+.information .phone{
+	color: #ffffff;
+	font-size: 14px;
+	margin-top: -90px;
+	margin-left: 100px;
+}
+.information .phone .word{
+	font-size: 14px;
+}
+.information .phone .number{
+	font-size: 15px;
+	font-weight: bold;
+}
+.information .help {
+	margin-top: 60px;
+	margin-bottom: 38px;
+	margin-left: 30px;
+	padding-right: 30px;
+	height: 142px;
+	background-color: #ed1b23;
+}
+.information .help .title-help{
+	padding-top: 25px;
+	padding-left: 24px;
+	color: #ffffff;
+	font-size:15px;
+	font-weight: bold;
+}
+.information .help .title-help img{
+	margin-left: 200px;
+}
+.information .help .subtitle-help{
+	padding-top: 20px;
+	padding-left: 24px;
+	color: #ffffff;
+	font-size:15px;
+	font-weight: bold;
+}
+.information .help label{
+	margin-top: 14px;
+	color: #ffffff;
+	margin-bottom: -1px;
+	font-size: 12px;
+}
+.information .help .form-control{
+	height: 20px;
+	width: 129px;
+	margin-right: 1px;
+	border-radius: 0px;
+	display: inline-block;
+	color: #ffffff;
+	background: transparent;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-bottom-width: 2px;
+	border-bottom-color: #ffffff;
+}
+.information .help .btn{
+	border: none;
+	color: #ffffff;
+	background: transparent;
+}
+/*akhir inforamtion*/
+
+/*portfolio*/
+.portfolio{
+    margin-top: -7px;
+    padding-bottom: 97px;
+}
+.portfolio .tz-gallery{
+    position: relative;
+    z-index: 1;    
+}
+.portfolio .spesial{
+    position: absolute;
+    top: 15px;
+    left: 44px; 
+    z-index: 2;
+}
+.portfolio h6.subtitle{
+    color: white;
+    font-weight: bold; 
+    font-size: 15px;
+    padding-bottom: 9px;
+}
+.portfolio .border{
+    margin-top: -13px;
+    margin-left: -29px;
+    border: 2px solid #ed1b23;
+    width: 240px;
+}
+.portfolio h2.title{
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;  
+    font-size: 35px;
+}
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.tz-gallery .thumbnail:hover {
+    transform: translateY(0px) scale(1.02);
+}
+
+.tz-gallery .lightbox img {
+    border-radius: 0 0 0 0;
+}
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+.portfolio p{
+    padding-top: 1px;
+}
+.portfolio a{
+    font-size: 15px;
+    color: #141d42;
+    font-weight: bold;
+}
+/*akhir portfolio*/
+.garis{
+    border: 1px solid #cbcbcb;
+    margin-bottom: 26px;
+}
+.line-red{
+    border: 2px solid red;
+    margin-top: 21px;
+}
+h5.luar {
+    color: #141d42;
+    font-weight: bold;
+    font-size: 18px;
+}
+/*testimoni*/
+.konsumen img.icon{
+    margin-top: 83px;
+    margin-bottom: 22px;
+    font-size: 25px;
+}
+.konsumen p.content{
+    padding-bottom: 27px;
+}
+.konsumen p.content1{
+    padding-bottom: 53px;
+}
+.konsumen p.nama{
+    font-weight: bold;  
+    margin-bottom: -2px;
+}
+.konsumen p.alamat{
+    margin-bottom: 91px;
+}
+/*akhir testimoni*/
+
+/*klien*/
+.client{
+    background-color: #cbcbcb;
+}
+.client .img-logo{
+    height: 129px;
+    width: 380px;
+    background-color: #fefefe; 
+    margin-bottom: 39px;
+    margin-top: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px #959494;
+    user-select: none;
+}
+.client h6{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #141d42;
+    padding-bottom: 37px;
+    padding-top: 37px;
+    font-size: 15px;
+}
+.client img.tengah{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.client img.awal{
+    margin-bottom: 30px;
+}
+.client img.akhir{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+/*akhir klien*/
+
+/*footer*/
+	    .medsos{
+			background-color: #000000;
+			height: 82px;
+		}
+		.medsos i{
+			font-size: 30px;
+			margin: 24px 20px;
+			color: #ffffff;
+		}
+		.final{
+			height: 124px;
+		}
+		.final img{
+			margin-top: 23px;
+		}
+		.final .col-sm-10{
+			font-size: 12px;
+			padding-left: 70px;
+			margin-top: 32px;
+		}
+		.final .copyright{
+			margin-top: 19px;
+		}
+/*akhir footer*/
